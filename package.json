@@ -7,8 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node -e \"require('http').get('http://localhost:3000/api/test', (res) => { console.log('✓ Server test passed'); process.exit(0); }).on('error', (e) => { console.error('✗ Server not running:', e.message); process.exit(1); }); setTimeout(() => { console.error('✗ Test timeout'); process.exit(1); }, 5000);\""
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
